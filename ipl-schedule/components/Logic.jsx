@@ -2,7 +2,7 @@ import TableCon from "./TableCon"
 function Logic(props) {
     var matches=[]
     var dateArray=[]
-    var date = new Date("June 20, 2023");
+    var date = new Date();
 
     const lst = props.teams
     const round=(lst)=>{
